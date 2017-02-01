@@ -1,0 +1,99 @@
+html, body, p {
+  padding: 0;
+  margin: 0;
+  min-height: auto;
+  font-size: 100%;
+  font-weight: normal;
+  background: #E8E7E1;
+  font-family: 'lobster';
+}
+
+#page,
+#content,
+#header,
+.greeting,
+.greeting > .autho{
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#page{
+  height: 100%;
+  min-height: 100%;
+}
+
+
+#header h1{
+  color: #364F52;
+  font-size: 30px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.autho {
+  color: #1E2C2E;
+  font-size: 20px;
+  text-align: center;
+}
+
+.autho > h5 {
+  font-weight:100;
+}
+
+.inner {
+  width: 65%;
+}
+
+#text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight:100;
+}
+
+.message {
+
+  margin-right: 45px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  word-wrap: break-word;
+  margin-left: 30px;
+}
+
+.message + .message {
+  margin-right: 45px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #364F52;
+  margin-right: 10px;
+  outline: none;
+}
+
+input {
+  font-family: 'lobster';
+  border: none;
+  background-color: #E8E7E1;
+  font-size: 20px;
+  color: #1E2C2E;
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+label {
+  display: none;
+}
+
+#id_text {
+  outline: none;
+  margin-left: 25px;
+  background-color: #F3F3EF;
+}
