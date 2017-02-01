@@ -25,7 +25,7 @@ SECRET_KEY = 'hd39q_rmja1cc9x(prd$y42$1$r(m$-gkk8&(q&#-@e834arwr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['krodinv.pythonanywhere.com']
 
 
 # Application definition
@@ -140,12 +140,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
+
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
+STATIC_ROOT = '/home/krodinv/LI/blog_it/assets/'
+
+
 SOCIAL_AUTH_GITHUB_KEY = '1ee44aa7ed4c082f6ea6'
 SOCIAL_AUTH_GITHUB_SECRET = '926987fdf8df8cfa5c3d74981bd28b7b5e9f471b'
 
-LOGIN_REDIRECT_URL = 'http://127.0.0.1:8000/message'
+LOGIN_REDIRECT_URL = 'http://krodinv.pythonanywhere.com/message'

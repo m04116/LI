@@ -42,6 +42,10 @@ html, body, p {
   font-weight:100;
 }
 
+.inner {
+  width: 65%;
+}
+
 #text {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -49,7 +53,7 @@ html, body, p {
 }
 
 .message {
-  width: 65%;
+
   margin-right: 45px;
   margin-top: 45px;
   margin-bottom: 45px;
@@ -92,9 +96,4 @@ label {
   outline: none;
   margin-left: 25px;
   background-color: #F3F3EF;
-}
-
-#reg_only {
-  width: 100%;
-  text-align: center;
 }
